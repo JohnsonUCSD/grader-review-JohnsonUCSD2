@@ -32,4 +32,4 @@ cp TestListExamples.java grading-area
 javac -cp  ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" grading-area/*.java
 java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore TestListExamples #> junit-output.txt
 
-# FAILURES = grep "Failures:" junit-output.txt
+# FAILURES = grep "Failures:" junit-output.txt  
